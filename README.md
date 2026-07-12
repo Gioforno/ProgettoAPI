@@ -13,7 +13,7 @@ Sono presenti dei file contenenti vari casi da testare in test_case/ con il rela
 ## esecuzione
 Per eseguire il progetto e trovare le differenze con l'output giusto:
 ```
-``` gcc -Wall -Werror -std=gnu11 -O2 -lm test.c -o test
-``` ./programma < test_case/test1 > out1
-``` diff out1 output/test1
+ gcc -Wall -Werror -std=gnu11 -O2 -lm test.c -o test
+ ./programma < test_case/test1 > out1
+ diff out1 output/test1
 ```
